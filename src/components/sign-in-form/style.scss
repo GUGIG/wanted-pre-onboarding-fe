@@ -1,0 +1,16 @@
+.sign-in-form {
+  width: 400px;
+
+  &__form {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+
+    & > * {
+      margin-bottom: 10px;
+    }
+    button {
+      align-self: flex-start;
+    }
+  }
+}

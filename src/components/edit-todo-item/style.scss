@@ -1,0 +1,11 @@
+.edit-todo-item {
+  &__input {
+    flex-grow: 1;
+    margin: 0 3em;
+  }
+
+  &__button-container {
+    display: flex;
+    gap: 10px;
+  }
+}

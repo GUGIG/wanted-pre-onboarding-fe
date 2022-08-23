@@ -1,0 +1,33 @@
+.normal-todo-item {
+  &__checkmark,
+  &__todo,
+  &__todo--completed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+  }
+
+  &__checkmark {
+    min-width: 40px;
+    min-height: 40px;
+    padding: 0.5em 1em;
+  }
+
+  &__todo {
+    flex-grow: 1;
+    margin: 0 3em;
+    justify-content: flex-start;
+    &--completed {
+      flex-grow: 1;
+      margin: 0 3em;
+      justify-content: flex-start;
+      text-decoration: line-through;
+    }
+  }
+
+  &__button-container {
+    display: flex;
+    gap: 10px;
+  }
+}

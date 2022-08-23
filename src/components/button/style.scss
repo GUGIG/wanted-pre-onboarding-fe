@@ -1,0 +1,30 @@
+.btn {
+  min-width: 40px;
+  min-height: 40px;
+  padding: 0.5em 1em;
+  display: inline-block;
+  font-size: 1rem;
+  text-transform: capitalize;
+  background-color: white;
+  border: 1px solid black;
+  cursor: pointer;
+
+  &[disabled] {
+    color: hsl(0, 0, 80%);
+    border-color: hsl(0, 0, 80%);
+    cursor: default;
+    pointer-events: none;
+  }
+
+  &:active {
+    background-color: hsl(0, 0, 95%);
+  }
+
+  &.positive {
+    color: hsl(127, 50%, 55%);
+  }
+
+  &.negative {
+    color: hsl(0, 50%, 55%);
+  }
+}

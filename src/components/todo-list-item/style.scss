@@ -1,0 +1,25 @@
+.todo-list-item {
+  display: flex;
+  justify-content: space-between;
+
+  // &__checkmark,
+  // &__content,
+  // &__content--completed {
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   font-size: 1.5rem;
+  // }
+
+  // &__content {
+  //   &--completed {
+  //     text-decoration: line-through;
+  //   }
+  // }
+
+  // &__button-container {
+  //   display: flex;
+  //   gap: 10px;
+  // }
+  margin-bottom: 16px;
+}

@@ -1,0 +1,8 @@
+.sign-in-up-page {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  & > *:first-child {
+    margin-right: 60px;
+  }
+}
