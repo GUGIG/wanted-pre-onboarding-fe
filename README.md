@@ -14,7 +14,7 @@ npm start
 
 # 데모 영상
 
-[youtube 링크](https://youtu.be/e3BUnrvaTtg)
+[youtube 링크](https://youtu.be/THAmOb82bIw)
 
 # 개요
 
